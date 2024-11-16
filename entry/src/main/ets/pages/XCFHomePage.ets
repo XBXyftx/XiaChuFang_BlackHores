@@ -66,7 +66,7 @@ struct ContentCom {
                   .onClick(() => {
                     router.pushUrl({
                       // 写/ 有提示 ，删除最左侧的/即可
-                      url: 'pages/XCF/XCFDetailPage',
+                      url: 'pages/XCFDetailPage',
                       params: {
                         title: cateItem.title,
                         id: cateItem.id
