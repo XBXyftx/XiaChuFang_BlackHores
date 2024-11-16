@@ -1,4 +1,4 @@
-import { Category, CategoryContainer } from '../../data/CategoryData'
+import { Category, CategoryContainer } from '../../ets/data/CategoryData'
 import router from '@ohos.router'
 
 
