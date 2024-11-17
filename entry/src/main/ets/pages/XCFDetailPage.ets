@@ -109,6 +109,7 @@ struct TopCom {
       Image(this.cover)
         .height('100%')
         .width('100%')
+        .sharedTransition(this.cateTitle,{duration:500})
       Column() {
         // 返回按钮
         Image($r('app.media.ic_public_arrow_left'))

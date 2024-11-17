@@ -55,11 +55,12 @@ struct ContentCom {
                 GridItem() {
                   Stack({ alignContent: Alignment.Bottom }) {
                     Image(cateItem.cover)
+                      .sharedTransition(cateItem.title,{duration:500})
                     Text(cateItem.title)
                       .fontColor(Color.White)
                       .fontSize(14)
                       .padding({ bottom: 10 })
-                      .sharedTransition(cateItem.title,{duration:600})
+                      .sharedTransition(cateItem.title,{duration:500})
 
                   }
                   .borderRadius(10)
