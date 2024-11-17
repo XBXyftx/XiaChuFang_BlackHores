@@ -59,6 +59,7 @@ struct ContentCom {
                       .fontColor(Color.White)
                       .fontSize(14)
                       .padding({ bottom: 10 })
+                      .sharedTransition(cateItem.title,{duration:600})
 
                   }
                   .borderRadius(10)

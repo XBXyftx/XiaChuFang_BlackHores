@@ -122,6 +122,7 @@ struct TopCom {
         Text(this.cateTitle)
           .fontColor(Color.White)
           .fontSize(30)
+          .sharedTransition(this.cateTitle)
       }
       .justifyContent(FlexAlign.SpaceAround)
       .alignItems(HorizontalAlign.Start)
